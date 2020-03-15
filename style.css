@@ -1,0 +1,225 @@
+/* Website Styles */
+
+* {
+  font-size: 100%;
+  margin: 1;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+P {
+  line-height: 1;
+}
+
+parent child {
+  /* CSS rules here */
+}
+
+a:hover {
+  text-decoration: underline;
+  color:red;
+}
+
+a: visited {
+  color: grey;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  /* background-color: Red; */
+/* background-image: url("images/geometric-leaves.png"); */
+/* background-position: center; */
+/* height: 600px; */
+background-repeat: repeat;
+/* background-size: cover; */
+  Color: Lime;font-family: 'Permanent Marker', cursive;font-size:20px;text-align: center;margin: 50px;
+}
+
+img {
+  margin: 20px;
+  border: 4px solid purple;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+header {
+  padding: 30px;
+}
+
+section {
+  padding: 30px;
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  padding: 30px;
+}
+
+.about {
+  background-color: red;
+}
+
+.about h2 {
+  font-size: 24px;
+}
+
+.title{
+  font-size: 48px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.class-name{}
+
+/* .banner { */
+  height: 350px;
+  background-image: url(images/mountains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.float-image {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+/* .column { */
+  width: 50%
+  float: left
+  float: right
+}
+
+/* .column-1 { */
+  width:30%;
+}
+
+/* .column-2 { */
+  /* width: 70%; */
+}
+
+/* .container-1 div, container-2 div { */
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+/*
+align-items:
+align-items:
+align-items:
+flex-direction: row
+ */
+
+.column-layout {
+  max-width: 1300px;
+  background-color: black;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+
+.main-column {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 2;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+/* } */
+
+ /* .call-outs container { */
+   /* max-width: 1400px; */
+   /* margin: 50px auto 0 auto; */
+   /* display: un-flex; */
+   /* align-items: center; */
+ /* } */
+/*  */
+ /* .call-out { */
+   /* padding: 4px; */
+   /* margin-bottom: 2px; */
+   /* display: flex; */
+   /* align-items: center; */
+ /* } */
+
+/* .call-out:nth-child(1) {background-color: solid purple} */
+/*  */
+/* .call-out:nth-child(2) {background-color: solid purple} */
+
+/* .call-out:nth-child(3) {background-color: solid purple} */
+/*  */
+
+/* .box-1{ */
+/*  */
+/* .box-2 { */
+
+
+
+/* .box-3 { */
+
+}
+
+<div class: "container-1">
+<div class:"box-1"
+  <h3>box-1</h3>
+  <h4>box-2</h4>
+  <h5>box-3</h5>
+  <h6>box-4</h6>
+  <p>
+
+
+h1 {
+  color: yellow;font-family: 'Trade Winds', Cursive;font-size: 40px;text-align: center;text-decoration: underline;margin-bottom: 20px;border-bottom: 1px solid purple;
+}
+
+/* section { */
+  border: 3px dashed purple;
+  background-color: black;
+  margin: 30px;
+  padding: 30px;
+}
+
+h2 {
+  color: green;font-family: Trade Winds, cursive;font-size: 22px;text-align: center;text-decoration: underline;margin-bottom: 20px;
+}
+
+h3 {
+  color: Yellow;font-family: Trade Winds, cursive;font-size: 22px;text-align: center;text-decoration: underline;margin-bottom: 20px;
+}
+
+h4 {
+  color: yellow;font-family: Trade Winds, cursive;font-size: 22px;text-align: center;text-decoration: underline;margin-bottom: 20px;
+}
+
+h5 {
+  color: yellow;font-family: Trade Winds, cursive;font-size: 22px;text-align: center;text-decoration: underline;margin-bottom: 10px;
+}
+
+h6 {
+  color: yellow;font-family: Trade Winds, cursive;font-size: 22px;text-align: center;text-decoration: underline;margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 9px;text-align: center;padding: 30px;
+}
